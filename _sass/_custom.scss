@@ -1,0 +1,91 @@
+// -----------------------------------------------------------------------------
+// Custom polish pass: hero scale, section rhythm, publication list spacing
+// -----------------------------------------------------------------------------
+
+.post-header {
+  padding-bottom: 0.5rem;
+
+  .post-title {
+    font-size: 3.5rem;
+    font-weight: 700;
+    line-height: 1.1;
+    letter-spacing: -0.02em;
+    margin-bottom: 0.5rem;
+  }
+
+  .desc {
+    font-size: 1.15rem;
+    color: var(--global-text-color-light);
+    margin-bottom: 0;
+  }
+}
+
+article {
+  > .clearfix {
+    margin-top: 2.5rem;
+
+    p {
+      font-size: 1.05rem;
+      line-height: 1.75;
+      margin-bottom: 1.5rem;
+    }
+  }
+
+  > h2 {
+    margin-top: 4rem;
+    margin-bottom: 1.5rem;
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--global-theme-color);
+    font-weight: 700;
+
+    a {
+      color: inherit;
+    }
+  }
+}
+
+.publications ol.bibliography li {
+  padding-bottom: 1.5rem;
+  margin-bottom: 1.5rem;
+  border-bottom: 1px solid var(--global-divider-color);
+
+  &:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+
+  .title {
+    font-size: 1.05rem;
+  }
+}
+
+.social {
+  margin-top: 3rem;
+}
+
+.institution-logo {
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
+  border-radius: 6px;
+  background: #fff;
+  padding: 3px;
+  margin-right: 2px;
+  vertical-align: middle;
+}
+
+// Plain-text CV dates instead of the colored pill tiles
+.card .list-group-item .table-cv .badge {
+  background: none !important;
+  color: var(--global-text-color-light) !important;
+  font-weight: 600 !important;
+  font-size: 0.85rem !important;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  padding: 0 !important;
+  min-width: unset !important;
+  white-space: nowrap;
+}

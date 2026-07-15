@@ -1,0 +1,75 @@
+- title: Experience
+  type: time_table
+  contents:
+    - title: Software Engineer
+      institution: Plutus Research (Remote)
+      logo: assets/img/logos/plutus.jpg
+      year: 2026-Present
+      description:
+        - Built FastAPI backtesting service on AWS ECS with a Celery + Redis queue running 100+ concurrent simulations.
+        - Strategy evaluation pipelines achieved ~4% avg ROI, Sharpe 1.8, Sortino 2.2.
+    - title: Researcher
+      institution: Renaissance School of Medicine, Stony Brook University
+      logo: assets/img/logos/renaissance.png
+      year: 2023-2025
+      description:
+        - Built R/Python pipelines (DESeq2, GSEA) analyzing 20,000+ gene features to map disease progression signatures.
+        - Awarded Snyder Scholar Fellowship — one of two recipients, $20,000 in research funding.
+    - title: Research Assistant
+      institution: Harvard Medical School, Boston, MA
+      logo: assets/img/logos/harvard.png
+      year: 2022
+      description:
+        - Owned end-to-end build of an AlphaFold/PyMOL pipeline evaluating 100+ gene variants for AAV gene therapy.
+        - Automated in-silico mutagenesis and stability scoring workflows, reducing manual screening effort by 25%.
+    - title: Undergraduate Research Intern
+      institution: Buck Institute for Research on Aging, Novato, CA
+      logo: assets/img/logos/buck.png
+      year: 2021
+      description:
+        - Developed a CRISPR–Sleeping Beauty transposase fusion system for targeted large-cargo DNA integration.
+        - Quantified genomic integration efficiency via automated microscopy and luciferase assays.
+    - title: Undergraduate Project Intern
+      institution: Defence Research and Development Organisation, Hyderabad, India
+      logo: assets/img/logos/drdo.png
+      year: 2019
+      description:
+        - Built a GMDH neural network in Python for antenna direction-finding; reduced RMS error by 67% (3° to 1°).
+        - Engineered signal preprocessing pipeline in Python; parsed and normalized raw antenna data for training.
+
+- title: Education
+  type: time_table
+  contents:
+    - title: MS in Data Science
+      institution: Stony Brook University, Stony Brook, NY
+      logo: assets/img/logos/stonybrook.png
+      year: 2026
+    - institution: Harvard Medical School, Boston, MA
+      logo: assets/img/logos/harvard.png
+      year: 2022
+    - institution: Birla Institute of Technology and Science, Pilani
+      logo: assets/img/logos/bits.png
+      year: 2018-2022
+
+- title: Honors and Awards
+  type: time_table
+  contents:
+    - year: 2025
+      items:
+        - Snyder Scholar Fellowship - $20,000 competitive research funding (one of two recipients)
+
+- title: Skills
+  type: nested_list
+  contents:
+    - title: Languages
+      items:
+        - Python, C++, TypeScript/JavaScript, SQL, R, MATLAB
+    - title: Full-Stack & Infra
+      items:
+        - React, FastAPI, PostgreSQL, Redis, Docker, AWS, GCP, Git, Unix/Linux
+    - title: Software Engineering
+      items:
+        - OOP, REST APIs, Distributed Systems, Async Processing, Microservices
+    - title: Data & ML
+      items:
+        - Pandas, NumPy, PySpark, PyTorch, Scikit-learn, XGBoost, LangChain, HuggingFace, FAISS
