@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: Software Engineer @ <a href="https://www.plutusresearch.com" target="_blank">Plutus Research</a>
+subtitle: Software Engineer @ <a href="https://plutous.org/" target="_blank">Plutous Research</a>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page

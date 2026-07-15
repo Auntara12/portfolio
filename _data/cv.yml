@@ -2,7 +2,7 @@
   type: time_table
   contents:
     - title: Software Engineer
-      institution: Plutus Research (Remote)
+      institution: Plutous Research (Remote)
       logo: assets/img/logos/plutus.jpg
       year: 2026-Present
       description:
@@ -44,9 +44,6 @@
       institution: Stony Brook University, Stony Brook, NY
       logo: assets/img/logos/stonybrook.png
       year: 2026
-    - institution: Harvard Medical School, Boston, MA
-      logo: assets/img/logos/harvard.png
-      year: 2022
     - institution: Birla Institute of Technology and Science, Pilani
       logo: assets/img/logos/bits.png
       year: 2018-2022
