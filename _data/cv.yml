@@ -4,7 +4,7 @@
     - title: Software Engineer
       institution: Plutous Research (Remote)
       logo: assets/img/logos/plutus.jpg
-      year: 2026-Present
+      year: 2026
       description:
         - Built FastAPI backtesting service on AWS ECS with a Celery + Redis queue running 100+ concurrent simulations.
         - Strategy evaluation pipelines achieved ~4% avg ROI, Sharpe 1.8, Sortino 2.2.
