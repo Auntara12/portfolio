@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: M.S. Data Science @ <a href="https://www.stonybrook.edu/" target="_blank">Stony Brook University</a> · Previously Software Engineer @ <a href="https://plutous.org/" target="_blank">Plutous Research</a>
+subtitle: M.S. Data Science @ <a href="https://www.stonybrook.edu/" target="_blank">Stony Brook University</a> · Previously Software Engineer @ Plutous Research
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
